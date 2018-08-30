@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32d6c1f-3b3f-4e6b-b717-ccce68e602b5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/.idea/workspace.xml" afterPath="$PROJECT_DIR$/地图猜猜猜/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/.idea/地图猜猜猜.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/css/reset.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/demo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/1/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/1/地图猜猜猜.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/1/背景.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/主教楼.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/准备好了！.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/分数.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/商业街.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/圆角矩形bg1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/圆角矩形bg2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/大按钮.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/天健九食堂.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/正气广场.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/记住地点名.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/轮数.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/2/高光.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/3/bg3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/3/title.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/3/否.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/3/是.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/3/橙按钮.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/image/3/红按钮.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/js/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/地图猜猜猜/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/main/css/style.css" afterPath="$PROJECT_DIR$/main/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/main/demo.html" afterPath="$PROJECT_DIR$/main/demo.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +17,8 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3567">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="472">
+              <caret line="150" column="18" lean-forward="true" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -55,7 +27,17 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522">
+            <state relative-caret-position="82">
+              <caret line="372" column="1" lean-forward="false" selection-start-line="372" selection-start-column="1" selection-end-line="372" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -72,16 +54,24 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main/demo.html" />
+        <option value="$PROJECT_DIR$/main/css/style.css" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="464" />
-    <option name="y" value="20" />
-    <option name="width" value="693" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="698" />
+    <option name="y" value="120" />
+    <option name="width" value="1229" />
     <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
@@ -123,13 +113,15 @@
             <path>
               <item name="mapGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="mapGame" type="462c0819:PsiDirectoryNode" />
-              <item name="地图猜猜猜" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mapGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="mapGame" type="462c0819:PsiDirectoryNode" />
-              <item name="地图猜猜猜" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,15 +243,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535591337531</updated>
-      <workItem from="1535591338951" duration="169000" />
+      <workItem from="1535591338951" duration="7515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169000" />
+    <option name="totallyTimeSpent" value="7515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="698" y="120" width="1229" height="1030" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -300,18 +293,44 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../highlight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/image/4/确认按钮.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/image/4/确认.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3567">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="472">
+          <caret line="150" column="18" lean-forward="true" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="82">
+          <caret line="372" column="1" lean-forward="false" selection-start-line="372" selection-start-column="1" selection-end-line="372" selection-end-column="1" />
           <folding />
         </state>
       </provider>
