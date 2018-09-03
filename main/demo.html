@@ -1,15 +1,9 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
 <title>地图猜猜猜 </title>
-
 <script>
         (function() {
             var html = document.documentElement;
@@ -19,19 +13,14 @@
             //iphone6下  1rem = 25px
         })()
 </script>
-
 <link rel="stylesheet" type="text/css" href="css/reset.css">
-
 <link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
-
 <body>
 
 	<div class="wrap">
 
 		<div class="enter_wrap">
-
 			<div class="container">
 				<div class="pic">
 					<img src="image/1/logo.png">
@@ -40,83 +29,56 @@
 					<img src="image/1/地图猜猜猜.png">
 				</div>
 			</div>
-
-
 		</div><!-- /.enter_wrap -->
 
 		<div class="topic_wrap">
-
-				<div class="wrap_top">
-
-					<div class="topic_title">
-						<img src="image/2/记住地点名.png">
-					</div>
-
-				</div>
-
-				<div class="wrap_top1">
-
-					<div class="top-to">
-						<div class="level_count"><img src="image/2/轮数.png"><span>轮数：<i class="now_level">1</i>/4</span></div>
-					</div>
-					<div class="top-to">
-						<div class="score"><img src="image/2/分数.png"><span>分数：<i class="now_score">0</i></span></div>
-					</div>
-
-				</div>
-
-				<div class="wrap_center">
-
-					<div class="place" id="p1"></div>
-					<div class="place" id="p2"></div>
-					<div class="place" id="p3"></div>
-					<div class="place" id="p4"></div>
-
-				</div>
-
-				<div class="enter_game">
-					<img class="highlight" src="image/2/高光.png"><img class="ready" src="image/2/准备好了！.png">
-				</div>
-
-			<div class="wrap_bottom">
-			<!--<img class="lagou_logo" src="images/topic_bottom.png">-->
-
-
-			</div>
-
-		</div><!-- /.topic_wrap -->
-
-		<div class="over_wrap">
-
 			<div class="wrap_top">
 				<div class="topic_title">
-					<img src="image/3/title.png">
+					<img src="image/2/记住地点名.png">
 				</div>
-
 			</div>
-
 			<div class="wrap_top1">
-
 				<div class="top-to">
 					<div class="level_count"><img src="image/2/轮数.png"><span>轮数：<i class="now_level">1</i>/4</span></div>
 				</div>
 				<div class="top-to">
 					<div class="score"><img src="image/2/分数.png"><span>分数：<i class="now_score">0</i></span></div>
 				</div>
-
 			</div>
+			<div class="wrap_center">
+				<div class="place" id="p1"></div>
+				<div class="place" id="p2"></div>
+				<div class="place" id="p3"></div>
+				<div class="place" id="p4"></div>
+			</div>
+			<div class="enter_game">
+				<img class="highlight" src="image/2/高光.png"><img class="ready" src="image/2/准备好了！.png">
+			</div>
+		</div><!-- /.topic_wrap -->
 
+		<div class="over_wrap">
+			<div class="wrap_top">
+				<div class="topic_title">
+					<img src="image/3/title.png">
+				</div>
+			</div>
+			<div class="wrap_top1">
+				<div class="top-to">
+					<div class="level_count"><img src="image/2/轮数.png"><span>轮数：<i class="now_level">1</i>/4</span></div>
+				</div>
+				<div class="top-to">
+					<div class="score"><img src="image/2/分数.png"><span>分数：<i class="now_score">0</i></span></div>
+				</div>
+			</div>
 			<div class="wrap_center">
 				<div class="fade_wrap">
 					<div class="img_option"></div>
 				</div>
 			</div>
-
 			<div class="wrap_bottom">
 				<div class="judge-yes"><img src="image/3/是.png"></div>
 				<div class="judge-no"><img src="image/3/否.png"></div>
 			</div>
-
 		</div><!-- /.over_wrap -->
 
 
@@ -125,20 +87,15 @@
 				<div class="topic_title">
 					<img src="image/4/title.png">
 				</div>
-
 			</div>
-
 			<div class="wrap_top1">
-
 				<div class="top-to">
 					<div class="level_count"><img src="image/2/轮数.png"><span>轮数：<i class="now_level">1</i>/4</span></div>
 				</div>
 				<div class="top-to">
 					<div class="score"><img src="image/2/分数.png"><span>分数：<i class="now_score">0</i></span></div>
 				</div>
-
 			</div>
-
 			<div class="wrap_center">
 				<ul>
 					<li><button class="btn-choose" id="btn-place1">天健九食堂</button></li>
@@ -153,16 +110,12 @@
 			<div class="wrap_bottom">
 				<button id="sure"><img src="image/4/确认.png"></button>
 			</div>
-
 		</div><!-- /.next_wrap-->
 
-
 		<div class="last_wrap">
-
 			<div class="topic_title">
 				<img src="image/5/title.png">
 			</div>
-
 			<div class="wrap_center">
 				<div class="game-total">
 					<p class="score_text">你的得分：</p>
@@ -170,12 +123,10 @@
 					<p class="score_percent">超过全校<span class="percent_num">75%</span>的人</p>
 				</div>
 			</div>
-
 			<div class="wrap_bottom">
-				<div class="play_again"><img src="image/5/再玩一次.png" /></div>
+				<div class="play_again"><a href="demo.html"><img src="image/5/再玩一次.png" /></a></div>
 				<div class="share_grade"><img src="image/5/分享成绩.png"></div>
 			</div>
-
 		</div>
 
 
@@ -184,9 +135,7 @@
 	</div><!-- /.wrap -->
 
 <script type="text/javascript" src="js/jquery.js"></script>
-
 <script type="text/javascript" src="js/main.js"></script>
-
 <script type="text/javascript">
 
 	careerism.init();
