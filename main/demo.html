@@ -32,7 +32,7 @@
 			</div>
 
 			<div class="wrap_center">
-				<form action="" method="post">
+				<form action="" method="get">
 					<p class="username"><img class="u_img" src="image/1/学号.png"><input type="text" name="username" id="username" placeholder="请输入学号" /></p>
 					<p class="password"><img class="p_img" src="image/1/密码.png"><input type="password" name="password" id="password" placeholder="请输入密码" /></p>
 					<p><input type="submit" id="submit" value="开始游戏"></p>
@@ -107,18 +107,17 @@
 				</div>
 			</div>
 			<div class="wrap_center">
-				<ul>
-					<li><button class="btn-choose" id="btn-place1">天健九食堂</button></li>
-					<li><button class="btn-choose" id="btn-place2">商业街</button></li>
-					<li><button class="btn-choose" id="btn-place3">家园工作室</button></li>
-					<li><button class="btn-choose" id="btn-place4">正气广场</button></li>
-					<li><button class="btn-choose" id="btn-place5">主教楼</button></li>
-					<li><button class="btn-choose" id="btn-place6">图书馆</button></li>
-				</ul>
-			</div>
-
-			<div class="wrap_bottom">
-				<button id="sure"><img src="image/4/确认.png"></button>
+				<form action="" method="post">
+					<ul>
+						<li><input type="checkbox" id="btn-place1" /><label class="btn-choose" for="btn-place1">天健九食堂</label></li>
+						<li><input type="checkbox" id="btn-place2" /><label class="btn-choose" for="btn-place2">商业街</label></li>
+						<li><input type="checkbox" id="btn-place3" /><label class="btn-choose" for="btn-place3">家园工作室</label></li>
+						<li><input type="checkbox" id="btn-place4" /><label class="btn-choose" for="btn-place4">正气广场</label></li>
+						<li><input type="checkbox" id="btn-place5" /><label class="btn-choose" for="btn-place5">主教楼</label></li>
+						<li><input type="checkbox" id="btn-place6" /><label class="btn-choose" for="btn-place6">图书馆</label></li>
+					</ul>
+					<input id="sure" type="submit" value="确认"/>
+				</form>
 			</div>
 		</div><!-- /.next_wrap-->
 
